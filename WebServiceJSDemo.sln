@@ -5,6 +5,11 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceJSDemo", "WebServiceJSDemo\WebServiceJSDemo.csproj", "{20338AF7-E988-475B-8F13-C335BCAE70AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E2CC26B-600E-4EAD-9D57-ABAD95405D0E}"
+	ProjectSection(SolutionItems) = preProject
+		Sql File.txt = Sql File.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,0 +1,29 @@
+
+
+
+create table tblStudents(
+ 
+ ID int identity primary key,
+ Name varchar(50),
+ Gender nvarchar(20),
+ TotalMarks int
+)
+
+insert into tblStudents values ('Mark Hasting','Male',900)
+insert into tblStudents values ('Pam Nicholas','Female',760)
+insert into tblStudents values ('John Stenson','Male',980)
+insert into tblStudents values ('Ram Gerald','Male',990)
+insert into tblStudents values ('Ron Simpson','Male',440)
+insert into tblStudents values ('Able Wicht','Male',330)
+insert into tblStudents values ('Steve Thompson','Male',983)
+insert into tblStudents values ('James Hold','Male',720)
+insert into tblStudents values ('Mary Ward','Female',870)
+insert into tblStudents values ('Nick Niron','Male',680)
+
+
+create proc upGetStudentByID
+ @ID int 
+ as 
+ begin 
+  select ID,Name, Gender, TotalMarks from tblStudents where ID=@ID
+ end

@@ -77,6 +77,11 @@
                 </td>
             </tr>
         </table>
+        <h5>
+            Butona her basıldığında kısmi bir post-back işlemi gerçekleşir. Sayfanın tamamı gidip gelmez!
+        </h5>
+        <asp:Label ID="lblTime" runat="server"></asp:Label>
+
     </form>
 </body>
 </html>
